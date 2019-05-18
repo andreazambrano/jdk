@@ -116,22 +116,22 @@
       
       <div class="form-box">
         <label>Nombre <small>*</small></label>
-        <input type="text" name="name" class="text">
+        <input type="text" name="name" class="text" data-error="Su nombre es requerido" required="">
       </div><!-- End Box -->
       
       <div class="form-box">
         <label>Email <small>*</small></label>
-        <input type="text" name="email" class="text">
+        <input type="email" name="email" class="text" data-error="Email requerido" required="">
       </div><!-- End Box -->
       
       <div class="form-box last">
-        <label>Telf. </label> 
-        <input type="text" name="subject" class="text">
+        <label>Telf. <small>*</small> </label> 
+        <input type="text" name="phone" class="text" data-error="Numero telefonico requerido" required="" maxlength="9" required>
       </div><!-- End Box -->
       
       <div class="form-box big">
         <label>Mensaje <small>*</small></label>
-        <textarea name="message"></textarea>
+        <textarea name="message" data-error="Mensaje requerido" required=""></textarea>
       </div><!-- End Box -->
       
       <div class="clearfix"></div>

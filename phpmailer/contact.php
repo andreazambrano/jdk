@@ -15,7 +15,7 @@ $mail->Port = 465;          //587                          // TCP port to connec
 
 
 //echo $email= $_POST['n2']."@".$_POST['n3'];
-$mail->setFrom('developer@thetixs.com', 'AndreaZambrano.com.ve');
+$mail->setFrom('developer@thetixs.com', 'jkdrotulacion.com');
 //$mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
 $mail->addAddress('andreazambrano10@gmail.com');              // Name is optional
 //$mail->addReplyTo('$email','roshan');
@@ -29,32 +29,32 @@ $mail->isHTML(true);                                  // Set email format to HTM
 $mail->Subject = 'JKD';
 $mail->Body    = 
    
-    '<div align="center" style="background-color:#f6f8f8;">
+    '<div align="center" style="background-color:#;">
         <div align="center" style="display:inline-block;
                                   height:auto;
                                   width:100%;">
           
 
-          <div style="color:#e44c2a; padding:20px;" align="left">
+          <div style="color:#b14a3f; padding:20px;" align="left">
             <br/>
-           <b>'.$_POST['name'].'</b>, 
+           <b>'.$_POST['name'].'</b>.
                     
           </div>
           
-          <div style="color:#e44c2a; padding:20px;" align="left">
+          <div style="color:#b14a3f; padding:20px;" align="left">
             <br/>
-           <b>'.$_POST['email'].'</b>, 
+           <b>'.$_POST['email'].'</b>.
                     
           </div>
 
-          <div style="color:#e44c2a; padding:20px;" align="left">
+          <div style="color:#b14a3f; padding:20px;" align="left">
             <br/>
-           <b>'.$_POST['subject'].'</b>,                     
+           <b>'.$_POST['phone'].'</b>.                   
           </div>
 
-          <div style="color:#e44c2a; padding:20px;" align="left">
+          <div style="color:#b14a3f; padding:20px;" align="left">
             <br/>
-           <b>'.$_POST['message'].'</b>,                     
+           <b>'.$_POST['message'].'</b>.                    
           </div>
 
           <div style="border-radius:10px; width: 320PX; box-shadow:5px 5px 17px 0px rgba(44, 50, 50, 0.14);">
