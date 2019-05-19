@@ -256,8 +256,8 @@
           <div class="subscribe"> 
           <h3 class="title">Suscribete</h3>
           <p>Suscribete para recibir noticias y promociones via email .</p>
-          <form action="#">
-            <input type="text" class="mail" value="your@email.com" onBlur="if(this.value == '') { this.value = 'your@email.com'; }" 
+          <form method="post" action="phpmailer/suscripcion.php">
+            <input type="text" name="mail" class="mail" value="your@email.com" required="" onBlur="if(this.value == '') { this.value = 'your@email.com'; }" 
             onfocus="if(this.value == 'your@email.com') { this.value = ''; }"/>
             <input type="submit" value="Enviar" class="submit" />
           </form>

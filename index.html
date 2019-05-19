@@ -103,11 +103,11 @@
           <div class="container">
            <div class="sixteen columns contain">
             
-             <h2 data-toptitle="20%" align="left"> Car Wrapping Rotulación y montaje de diseños exclusivos para Motos y Autos</h2>
+             <h2 data-toptitle="20%" align="left"> Car Wrapping </h2>
              
              <p data-bottomtext="33%">
              <span>
-             En Carbono, Piel, Madera
+             Diversidad de colores y texturas.
              </span>
              </p>
              <div class="links" data-bottomlinks="20%">
@@ -116,6 +116,29 @@
              
              <img src="images/img/sliders/slider-1/slider-item-3.png" class="item" data-topimage="8%"/>
            
+           </div>
+         </div><!-- End Container -->
+          
+         </li><!-- End item -->
+
+         <li class="slide-bg-color">
+          
+          <div class="container">
+           <div class="sixteen columns contain">
+            <h2 data-toptitle="20%">Rotulación de vehículos</h2>
+             
+             <p data-bottomtext="33%">
+             <span>
+             Integrales y semi integrales con acabados de excelente calidad y durabilidad
+             </span>
+             </p>
+             <div class="links" data-bottomlinks="20%">
+              <span>
+               <a href="somos.html" class="button medium normal">Saber más</a>
+               <a href="#" class="button medium black">Trabajos</a>
+              </span>
+             </div>
+             
            </div>
          </div><!-- End Container -->
           
@@ -130,7 +153,7 @@
              
              <p data-bottomtext="33%">
              <span>
-             En Vinilos, Lonas, Vehìculos, Car Wrapping, Luminosos
+             En Vinilos, Lonas publicitarias, Decorativos, Luminosos y más.
              </span>
              </p>
              <div class="links" data-bottomlinks="20%">
@@ -153,7 +176,7 @@
             
              <h2 data-toptitle="20%">Lonas Publicitarias</h2>
              <p data-bottomtext="39%">
-             Rótulos Decorativos, públicitarios, imagen córporea.</p>
+             Enpequeño y gran formato, </p>
              <div class="links" data-bottomlinks="20%">
                <a href="contact.html" class="button medium normal">Presupuesto GRATIS</a>
                
@@ -212,7 +235,7 @@
      <div class="slidewrap1">
     
       <div class="sixteen columns"> 
-       <h3 class="title bottom-2">Servicios</h3> 
+       <h3 class="title bottom-2">PRODUCTOS</h3> 
       </div>
 
       
@@ -225,7 +248,7 @@
           <a href="carwrapping.html">
           <img src="images/img/portfolio/motos3.jpg" alt="" class="pic" />
           <div class="img-caption">
-          <div class="desc"><h3>Car Wrapping Motos</h3><p>Diversidad de texturs y amplia gama de colores</p><span>i</span></div>
+          <div class="desc"><h3>Car Wrapping Motos</h3><p>Diversidad de texturas y amplia gama de colores</p><span>i</span></div>
           </div><!-- hover effect -->
           </a>
         </div>
@@ -247,7 +270,7 @@
           <a href="comercial.html">
           <img src="images/img/portfolio/thumb-3.jpg" alt="" class="pic" />
           <div class="img-caption">
-          <div class="desc"><h3>Rotulación Comercial</h3><p>Oficinas, Tiendas, Comercios y más pequeño y gran formato </p><span>i</span></div>
+          <div class="desc"><h3>Rotulación Comercial</h3><p>Oficinas, Tiendas, Comercios en pequeño y gran formato </p><span>i</span></div>
           </div><!-- hover effect -->
           </a>
         </div>
@@ -258,7 +281,7 @@
           <a href="vehiculos.html">
           <img src="images/img/portfolio/thumb-2.jpg" alt="" class="pic" />
           <div class="img-caption">
-          <div class="desc"><h3>Car Wrapping vehículos</h3><p>Particulares, Competencia, flotas, comerciales y furgonetas</p><span>i</span></div>
+          <div class="desc"><h3>Car Wrapping</h3><p>Particulares, Competencia, flotas, comerciales y furgonetas</p><span>i</span></div>
           </div><!-- hover effect -->
           </a>
         </div>
@@ -356,26 +379,26 @@
       
       <div id="fields">
       
-       <form method="post" action="phpmailer/contact.php">
+       <form  method="post" action="phpmailer/contact.php">
       
       <div class="form-box">
         <label>Nombre <small>*</small></label>
-        <input type="text" name="name" class="text">
+        <input type="text" name="name" class="text" data-error="Su nombre es requerido" required="">
       </div><!-- End Box -->
       
       <div class="form-box">
         <label>Email <small>*</small></label>
-        <input type="text" name="email" class="text">
+        <input type="email" name="email" class="text" data-error="Email requerido" required="">
       </div><!-- End Box -->
       
       <div class="form-box last">
-        <label>Telf. </label>
-        <input type="text" name="subject" class="text">
+        <label>Telf. <small>*</small> </label> 
+        <input type="text" name="phone" class="text" data-error="Numero telefonico requerido" required="" maxlength="9" required>
       </div><!-- End Box -->
       
       <div class="form-box big">
         <label>Mensaje <small>*</small></label>
-        <textarea name="message"></textarea>
+        <textarea name="message" data-error="Mensaje requerido" required=""></textarea>
       </div><!-- End Box -->
       
       <div class="clearfix"></div>
@@ -401,16 +424,16 @@
            <ul class="email-info">
              <li>info@jkdrotulacion.com </li>
            </ul>
-            <div class="subscribe bottom-4"> 
-            <br/>
+           <div class="subscribe"> 
           <h3 class="title">Suscribete</h3>
           <p>Suscribete para recibir noticias y promociones via email .</p>
-          <form action="#">
-            <input type="text" class="mail" value="your@email.com" onBlur="if(this.value == '') { this.value = 'your@email.com'; }" 
+          <form method="post" action="phpmailer/suscripcion.php">
+            <input type="text" name="mail" class="mail" value="your@email.com" required="" onBlur="if(this.value == '') { this.value = 'your@email.com'; }" 
             onfocus="if(this.value == 'your@email.com') { this.value = ''; }"/>
             <input type="submit" value="Enviar" class="submit" />
           </form>
           </div>
+        </div><!-- End Subscribe Widget -->
 
 
       </div>
