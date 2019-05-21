@@ -105,8 +105,8 @@ footer .social {
     width: 100%;
     text-align:center;
     background-color: #000000;
-    opacity:0.7;
-	filter:alpha(opacity=70);
+    opacity:0.9;
+	filter:alpha(opacity=90);
 }
 #infobox3 p {
     line-height:58px;
