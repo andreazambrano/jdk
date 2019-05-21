@@ -86,7 +86,7 @@ footer .social {
 
  
 /* CSS para la animación y localización de los DIV de cookies */
- 
+
 #overbox3 {
     position: fixed;
     bottom: 0px;
@@ -94,6 +94,8 @@ footer .social {
     width: 100%;
     z-index: 999999;
     display: block;
+    opacity:0.95;
+	filter:alpha(opacity=95);
 }
 #infobox3 {
     margin: auto;
@@ -102,17 +104,23 @@ footer .social {
     height: 58px;
     width: 100%;
     text-align:center;
-    background-color: #b14a3f;
+    background-color: #000000;
+    opacity:0.7;
+	filter:alpha(opacity=70);
 }
 #infobox3 p {
     line-height:58px;
-    font-size:12px;
+    font-size:20px;
     text-align:center;
+    padding-left:25px;
+	padding-right:25px;
+	height:30px;
 }
 #infobox3 p a {
     margin-right:5px;
     text-decoration: underline;
 }
+
 /* Fin del CSS para cookies */
  
 
