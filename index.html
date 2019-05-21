@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="es"> <!--<![endif]-->
 <head>
 
   <!-- Basic Page Needs -->
@@ -33,10 +33,17 @@
   
   <!-- Favicons -->
   <link rel="shortcut icon" href="images/favicon.ico">
-  
+ 
 </head>
 <body>
 
+<div id="overbox3">
+    <div id="infobox3">
+        <p style="font-size:12px;">Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+        <a href="politica-privacidad.php">Más información</a>
+        <a onclick="aceptar_cookies();"  style="color:#fff;">ACEPTAR</a></p>
+    </div>
+</div>
 
   <div id="wrap" class="boxed">
   
@@ -92,19 +99,14 @@
      
    </header><!-- <<< End Header >>> -->
    
-  <div class="cookiesms" id="cookie1">
-Esta web utiliza cookies, puedes ver nuestra  <a href="html.html">la política de cookies, aquí</a> 
-Si continuas navegando estás aceptándola
-<button onclick="controlcookies()">Aceptar</button>
-<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
-</div>
-<script type="text/javascript">
-if (localStorage.controlcookie>0){ 
-document.getElementById('cookie1').style.bottom = '-50px';
-}
-</script>
- 
-<!-- Fin del código de cookies -->
+     <!--Código HTML de la política de cookies -->
+     
+    <!--La URL incluida es la parte que se ha de modificar -->
+     
+
+     
+    <!-- Fin del código de cookies -->
+
   <div class="slider-1 clearfix">
 
  
@@ -525,7 +527,6 @@ document.getElementById('cookie1').style.bottom = '-50px';
   <!-- Start Style Switcher -->
   <script src="js/styleswitcher.js"></script>
 <!-- Div Contain Options -->
-  
-    
+ <script src="js/cookies.js" type="text/javascript"></script>
 </body>
 </html>
