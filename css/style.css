@@ -84,44 +84,25 @@ footer .social {
 	margin-top:2px;
 }
 
- 
-/* CSS para la animación y localización de los DIV de cookies */
-
-#overbox3 {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 999999;
-    display: block;
-    opacity:0.95;
-	filter:alpha(opacity=95);
-}
-#infobox3 {
-    margin: auto;
-    position: relative;
-    top: 0px;
-    height: 58px;
-    width: 100%;
-    text-align:center;
-    background-color: #000000;
-    opacity:0.9;
-	filter:alpha(opacity=90);
-}
-#infobox3 p {
-    line-height:58px;
-    font-size:20px;
-    text-align:center;
-    padding-left:25px;
-	padding-right:25px;
-	height:30px;
-}
-#infobox3 p a {
-    margin-right:5px;
-    text-decoration: underline;
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
 }
 
-/* Fin del CSS para cookies */
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+
  
 
 
@@ -1112,7 +1093,7 @@ header.style-3.style-5 .navigation > #nav {
 }
 	
 .main-header .two-thirds.column {
-	float:right;
+	float:auto;
 }
 	
 #menu {
