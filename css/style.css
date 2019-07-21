@@ -930,16 +930,18 @@ html.ie.ie8 .comments .comment-box .avatar img {
 }
 
 /* google map */
-#map{
-	display: block;
-	width: 100%;
-	height: 350px;
-	margin: 0 auto;
-	margin-top:-40px;
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
-
-#map img {
-	max-width:inherit !important;
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 /* contact info */
