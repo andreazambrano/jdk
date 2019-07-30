@@ -1856,6 +1856,8 @@ header .search form {
 	margin:0 auto;
 }
 
+
+
 #menu > a {
 	margin:0 auto;
 	margin-bottom:35px;
@@ -1868,7 +1870,7 @@ header.style-3 #menu > a {
 }
 
 #menu > ul {
-	
+	/*width: 100%;*/
 	right:0;
 	top: 50px;
 }
@@ -2106,11 +2108,11 @@ h3.title, .latest-blog .item h3 {
 
 /* single project */
 .portfolio-control {
-	float: none;
+	float: right;
 	margin-right: auto;
 	margin-left: auto;
-	width: 147px;
-	margin-top: 15px;
+	width: 80px;
+	margin-top: 3px;
 }
 
 /* flex slider direction */
@@ -2222,7 +2224,7 @@ body.under-construction .content input.subscribe-button {
 
 /* slider */
 .slider-1 .slides li .item {
-	max-width:45%;
+	max-width:80%;
 }
 
 .slider-1 .slides li .contain, .slider-1 .loading {
@@ -2232,10 +2234,11 @@ body.under-construction .content input.subscribe-button {
 .slider-1 .slides li h2, .slider-1 .slides li p, .slider-1 .slides li .links {
 	max-width: 140px;
 	min-width: 140px;
+	padding-top: 69%
 }
 
 .slider-1 .slides li h2 {
-	font-size: 15px;
+	font-size: 20px;
     line-height: 20px;
 }
 
