@@ -1099,7 +1099,7 @@ header.style-3.style-5 .navigation > #nav {
 }
 	
 #menu {
-	top: auto;
+	top: 10px;
 	left: auto;
 	position:relative;
 }
@@ -1458,6 +1458,19 @@ header.style-3.style-5 .down-header {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+	.one-third2{
+		align-content: left;
+		max-width: 50%;
+	}
+	.two-thirds2{
+		max-width: 100%;
+		float: right;
+	}
+	.logo img{
+		width: 70%;
+		margin: -10px;
+
+	}  
 
 .recent-work .item {
 	max-height: 336px;
@@ -1855,7 +1868,7 @@ header.style-3 #menu > a {
 }
 
 #menu > ul {
-	width: 100%;
+	
 	right:0;
 	top: 50px;
 }

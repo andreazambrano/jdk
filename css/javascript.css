@@ -363,11 +363,13 @@ header.style-3 .navigation ul li ul {
 
 .flexslider, flexslider4{
 	margin:0;padding:0;
+
 }
 
 .flexslider .slides>li, .flexslider4 .slides>li{
 	display:none;
 	-webkit-backface-visibility:hidden;
+	min-height: 300px;
 }
 
 .flexslider .slides img, .flexslider4 .slides img{
