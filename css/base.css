@@ -174,7 +174,7 @@ footer, .button.small, .alert, .alert .close, .team .item span, .post-meta .meta
 }
 
 .button.medium, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li,.alert  i, .breadcrumbs i.icon-home, #options li, .form-box label, .slider-1 .slides li p, .slider-2 .slides li p, .one-page p.description {
-	font-size:18px;
+	font-size:30px;
 }
 
 .blog-3 .item a.title, .about-author .content .data h5 {
@@ -206,7 +206,7 @@ h3.title, .latest-blog .item h3, .tables-column .header h3 {
 }
 
 .slider-1 .slides li h2 {
-	font-size: 27px;
+	font-size: 60px;
 }
 
 .pagination a.next-button, .pagination a.prev-button, .portfolio-control a.all, .slidecontrols li a, .more, .portfolio-control {
@@ -295,7 +295,7 @@ header.style-3.style-5 .navigation > #nav, .one-page.section h2, .one-page.secti
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h2 { font-size: 35px; line-height: 54px; margin-bottom: 10px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
