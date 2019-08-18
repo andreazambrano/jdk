@@ -89,7 +89,7 @@ input[type='submit']
 }
 
 p, blockquote {
-	line-height: 23px;
+	line-height: 28px;
 }
 
 blockquote {
@@ -158,7 +158,7 @@ footer h3.title, .subscribe input.mail, blockquote, .about-author h3, .related-p
 }
 
 body, .navigation ul li ul li, .accordion .icon-plus, .accordion .icon-minus, .portfolio .item.element-4 .img-caption .desc p, .gallery .item.element-4 .img-caption .desc p, .footer-top.col-4 {
-	font-size:30px;
+	font-size:20px;
 }
 
 footer, .button.small, .alert, .alert .close, .team .item span, .post-meta .meta i, .sidebar .widget .text-search, header .widget .text-search, .widget .followers h4, .related-posts .item h5, .form-box input.text, .form-box textarea {
@@ -173,9 +173,14 @@ footer, .button.small, .alert, .alert .close, .team .item span, .post-meta .meta
 	font-size:17px;
 }
 
-.button.medium, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li,.alert  i, .breadcrumbs i.icon-home, #options li, .form-box label, .slider-1 .slides li p, .slider-2 .slides li p, .one-page p.description {
+.button.medium, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li,.alert  i, .breadcrumbs i.icon-home, #options li, .form-box label, .one-page p.description {
 	font-size:20px;
 }
+
+.slider-1 .slides li p, .slider-2 .slides li p,{ 
+	font-size: 30px; 
+}
+
 
 .blog-3 .item a.title, .about-author .content .data h5 {
 	font-size:19px;
@@ -295,7 +300,7 @@ header.style-3.style-5 .navigation > #nav, .one-page.section h2, .one-page.secti
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 54px; margin-bottom: 10px; }
+	h2 { font-size: 25px; line-height: 54px; margin-bottom: 10px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
