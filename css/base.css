@@ -150,23 +150,23 @@ footer h3.title, .subscribe input.mail, blockquote, .about-author h3, .related-p
 
 /* font size */
 .top-bar, .tables-column .header h3 span.pop, .widget.most-posts ul li span {
-	font-size:12px;
+	font-size:16px;
 }
 
 .latest-blog .item .meta, span.copyright, .breadcrumbs, .tables-column .header .price span, .post-meta .meta, .widget.most-posts ul.posts li, .widget .followers, .related-posts .item .meta, .comments .comment-box .date-replay, .the-icons li {
-	font-size:13px;
+	font-size:18px;
 }
 
 body, .navigation ul li ul li, .accordion .icon-plus, .accordion .icon-minus, .portfolio .item.element-4 .img-caption .desc p, .gallery .item.element-4 .img-caption .desc p, .footer-top.col-4 {
-	font-size:14px;
+	font-size:20px;
 }
 
 footer, .button.small, .alert, .alert .close, .team .item span, .post-meta .meta i, .sidebar .widget .text-search, header .widget .text-search, .widget .followers h4, .related-posts .item h5, .form-box input.text, .form-box textarea {
-	font-size:15px;
+	font-size:18px;
 }
 
 .phone-mail i.icon-envelope-alt, .navigation ul li, .img-caption .desc p, .subscribe input.mail, .subscribe input.submit, .progress-bar h5, blockquote, .qoute p, .testimonial-item .author span, .testimonial-item .author a, .widget #horizontal-tabs ul.tabs li, .post-tags i, .notification_error{
-	font-size:16px;
+	font-size:20px;
 }
 
 .phone-mail i.icon-phone, .pagination, .notification_ok {
@@ -174,7 +174,7 @@ footer, .button.small, .alert, .alert .close, .team .item span, .post-meta .meta
 }
 
 .button.medium, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li,.alert  i, .breadcrumbs i.icon-home, #options li, .form-box label, .slider-1 .slides li p, .slider-2 .slides li p, .one-page p.description {
-	font-size:30px;
+	font-size:20px;
 }
 
 .blog-3 .item a.title, .about-author .content .data h5 {
