@@ -458,7 +458,7 @@ span.copyright {
 
 /* start inernal pages */
 .page-title {
-	padding:42px 0 34px 0;
+	padding:32px 0 24px 0;
 	margin-bottom: 40px;
 }
 
@@ -2040,7 +2040,7 @@ h3.title, .latest-blog .item h3 {
 .page-title h1 {
 	font-size: 33px;
 	float:none;
-	text-align:center;
+	text-align:left;
 }
 
 .testimonials-arrow {
@@ -2109,10 +2109,10 @@ h3.title, .latest-blog .item h3 {
 /* single project */
 .portfolio-control {
 	float: right;
-	margin-right: auto;
+	margin-right: -23px;
 	margin-left: auto;
 	width: 80px;
-	margin-top: 3px;
+	margin-top: -49px;
 }
 
 /* flex slider direction */
