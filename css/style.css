@@ -2115,6 +2115,14 @@ h3.title, .latest-blog .item h3 {
 	margin-top: -49px;
 }
 
+.portfolio-control1 {
+	float: right;
+	margin-right: -23px;
+	margin-left: auto;
+	width: 131px;
+	margin-top: 0px;
+}
+
 /* flex slider direction */
 .flex-direction-nav li a {
 	top: 37%;
