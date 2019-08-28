@@ -227,8 +227,8 @@ i.icon-angle-down.responsive {
 }
 
 .slider-1 .slides li .item .video-wrap {
-    min-width: 425px;
-	min-height: 244px;	
+    min-width: 600px;
+	min-height: 350px;	
 }
 
 /* slider-2 options */
@@ -1433,8 +1433,8 @@ header.style-3.style-5 .down-header {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 357px;
-	min-height: 194px;
+	min-width: 400px;
+	min-height: 200px;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
@@ -1775,8 +1775,8 @@ header .search form {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 195px;
-	min-height: 124px;
+	min-width: 300px;
+	min-height: 150px;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
@@ -2259,8 +2259,8 @@ header .search form {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 115px;
-	min-height: 95px;
+	min-width: 250px;
+	min-height: 150px;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
