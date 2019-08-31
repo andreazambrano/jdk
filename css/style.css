@@ -1,4 +1,4 @@
-
+ 
 /* Import Basic Files 
 ================================================== */
 
@@ -227,7 +227,7 @@ i.icon-angle-down.responsive {
 }
 
 .slider-1 .slides li .item .video-wrap {
-    min-width: 600px;
+    min-width: 800px;
 	min-height: 350px;	
 }
 
@@ -1433,7 +1433,7 @@ header.style-3.style-5 .down-header {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 400px;
+	min-width: 600px;
 	min-height: 200px;
 }
 
@@ -1775,7 +1775,7 @@ header .search form {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 300px;
+	min-width: 500px;
 	min-height: 150px;
 }
 
@@ -2259,7 +2259,7 @@ header .search form {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 250px;
+	min-width: 450px;
 	min-height: 150px;
 }
 
