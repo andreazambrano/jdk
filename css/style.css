@@ -1433,8 +1433,8 @@ header.style-3.style-5 .down-header {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 600px;
-	min-height: 200px;
+	min-width: 350px;
+	min-height: 300px;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
@@ -1775,8 +1775,8 @@ header .search form {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 500px;
-	min-height: 150px;
+	min-width: 400px;
+	min-height: 350px;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
@@ -2259,8 +2259,9 @@ header .search form {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 450px;
-	min-height: 150px;
+	min-width: 300px;
+	min-height: 250px;
+	right: auto;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
