@@ -19,6 +19,10 @@
 .float-right, .top-bar .social-icons, #nav, .more, footer .social, header .social, .accordion .icon-plus, .accordion .icon-minus, .portfolio-control, .portfolio-control a, a.next-post {
 	float:right;
 }
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
 
 
 .float-left, .tweet_list li i.icon-twitter, .navigation ul li, .page-title h1, .accordion.style2 .icon-plus, .accordion.style2 .icon-minus, #horizontal-tabs ul.tabs li, #vertical-tabs .contents, #vertical-tabs ul.tabs, .alert i, .pagination a, .team .item h4, .member-social a, #options li, .share-social a, .post-meta .meta, img.pic-2, .post.style-2 .image-post, a.prev-post, .about-author .avatar, .related-posts .item, .comments .comment-box .avatar, .form-box, .the-icons, header.style-3 #nav  {
