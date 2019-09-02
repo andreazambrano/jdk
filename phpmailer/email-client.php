@@ -75,7 +75,7 @@ $mail->Body    =
       </tr>
     </table>
      <div align="center" >
-        <img src="http://sohigh.com.ve/tixs/img/logo.png">
+        <img src="http://tuw3bsite.com.ve/tixs/img/logo.png">
        </div>
     <div text-align="center" style="
     background-color:rgb(109, 160, 212);

@@ -6,16 +6,16 @@ $mail = new PHPMailer;
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'thetixs.com';       //  ssl://smtp.gmail.com          // Specify main and backup SMTP servers
+$mail->Host = 'jkdrotulacion.com';       //  ssl://smtp.gmail.com          // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'developer@thetixs.com';                      // SMTP username
-$mail->Password = 'uoW9developer';                           // SMTP password
-$mail->SMTPSecure = 'ssl';  //TLS                       // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;          //587                          // TCP port to connect to
+$mail->Username = 'info@jkdrotulacion.com';                      // SMTP username
+$mail->Password = 'Y2106872v.';                           // SMTP password
+$mail->SMTPSecure = 'TLS';  //TLS                       // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;          //587                          // TCP port to connect to
 
 
 //echo $email= $_POST['n2']."@".$_POST['n3'];
-$mail->setFrom('developer@thetixs.com', 'Jkdrotulacion.com');
+$mail->setFrom('info@jkdrotulacion.com', 'Jkdrotulacion.com');
 //$mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
 $mail->addAddress('info@jkdrotulacion.com');              // Name is optional
 //$mail->addReplyTo('$email','roshan');
