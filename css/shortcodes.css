@@ -455,8 +455,8 @@ blockquote {
 =========================================================*/
 .video-wrap {
 	height: 0;
-	padding-top: 50px;
-	padding-bottom: 50%;
+	padding-top: 30px;
+	padding-bottom: 70%;
 	margin-bottom: 10px;
 	position: relative;
 	overflow: hidden;

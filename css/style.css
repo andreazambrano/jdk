@@ -1434,8 +1434,8 @@ header.style-3.style-5 .down-header {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 350px;
-	min-height: 300px;
+	min-width: 400px;
+	min-height: 200px;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
@@ -1777,7 +1777,7 @@ header .search form {
 
 .slider-1 .slides li .item .video-wrap {
 	min-width: 400px;
-	min-height: 350px;
+	min-height: 200px;
 }
 
 .slider-2 .slides li h2, .slider-2 .slides li p, .slider-2 .slides li .links {
@@ -2260,8 +2260,8 @@ header .search form {
 }
 
 .slider-1 .slides li .item .video-wrap {
-	min-width: 300px;
-	min-height: 250px;
+	min-width: 250px;
+	min-height: 150px;
 	right: auto;
 }
 
