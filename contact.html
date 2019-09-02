@@ -277,7 +277,34 @@
   
   <!-- Start Google Map JavaScript -->
   
-  
+  <script type="text/javascript" src="js/gmaps.js"></script>
+  <script type="text/javascript">
+    var map;
+    $(document).ready(function(){
+    
+    // main directions
+      map = new GMaps({
+        el: '#map', lat: 51.5073346, lng: -0.1276831, zoom: 13, zoomControl : true, 
+        zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
+      });
+    // add address markers
+    map.addMarker({ lat: 51.503324, lng: -0.119543, title: 'London Eye',
+      infoWindow: { content: '<p>You can add your address 1 here</p>' } });
+    
+      map.addMarker({ lat: 51.5007396, lng: -0.1245299, title: 'Big Ben',
+      infoWindow: { content: '<p>You can add your address 2 here</p>' } });
+    
+      map.addMarker({ lat: 51.518856, lng: -0.1263371, title: 'British Museum',
+      infoWindow: { content: '<p>You can add your address 3 here</p>' } });
+    
+      map.addMarker({ lat: 51.5085822, lng: -0.1283169, title: 'National Gallery',
+      infoWindow: { content: '<p>You can add your address 4 here</p>' } });
+    
+      map.addMarker({ lat: 51.5089465, lng: -0.0764269, title: 'Tower Of London',
+      infoWindow: { content: '<p>You can add your address 5 here</p>' } });
+    
+    });
+  </script>
   <!-- End Google Map JavaScript -->
   
  
