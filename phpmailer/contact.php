@@ -9,8 +9,8 @@ $mail->Host = 'jkdrotulacion.com';       //  ssl://smtp.gmail.com          // Sp
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'info@jkdrotulacion.com';                      // SMTP username
 $mail->Password = 'Y2106872v.';                           // SMTP password
-$mail->SMTPSecure = 'TLS';  //TLS                       // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;          //587                          // TCP port to connect to
+$mail->SMTPSecure = 'ssl';  //TLS                       // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 465;          //587                          // TCP port to connect to
 
 
 //echo $email= $_POST['n2']."@".$_POST['n3'];
