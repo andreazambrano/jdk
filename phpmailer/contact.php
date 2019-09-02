@@ -3,15 +3,16 @@ require 'PHPMailerAutoload.php';
 // echo !extension_loaded('openssl')?"Not Available":"Available <br/>";
 $mail = new PHPMailer;
 
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+//$mail->SMTPDebug = 2;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'jkdrotulacion.com';       //  ssl://smtp.gmail.com          // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'info@jkdrotulacion.com';                      // SMTP username
 $mail->Password = 'Y2106872v.';                           // SMTP password
-$mail->SMTPSecure = 'TLS';  //TLS                       // Enable TLS encryption, `ssl` also accepted
+$mail->SMTPSecure = 'tls';  //TLS                       // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;          //587                          // TCP port to connect to
+
 
 
 //echo $email= $_POST['n2']."@".$_POST['n3'];
