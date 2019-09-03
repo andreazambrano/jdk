@@ -627,59 +627,59 @@
 		$(form).find('input[type="text"], input[type="email"], textarea').val(null);
 	}
 
-	ckav.contactForm = function ($form, formData, validate_data) {
-		'use strict';
+	// ckav.contactForm = function ($form, formData, validate_data) {
+	// 	'use strict';
 
-		if ($form.find('label.error').length > 0) { $form.find('label.error').hide(); }
+	// 	if ($form.find('label.error').length > 0) { $form.find('label.error').hide(); }
 
-		var $btn = $form.find(".btn").button('loading');
-		var timer = 4000;
+	// 	var $btn = $form.find(".btn").button('loading');
+	// 	var timer = 4000;
 
-		if ($form.valid()) {
-			$.ajax({
-				url: $form.attr('action'),
-				type: 'POST',
-				data: formData,
-				success: function (data) {
-					if (data.status === 'error') {
-						// Email subscription error messages
-						swal("Error!", data.type, "error");
-						$btn.button('reset');
-						ckav.resetForm($form);
-					} else {
-						//swal("Success!", validate_data.successMsg, "success");
-						swal({
-							type: "success",
-							title: "Success!",
-							text: validate_data.successMsg,
-							timer: timer
-						}, function () {
-							if ($form.attr('data-success-redirect') === 'y') {
-								window.location = ckav.config.success_url;
-							}
-						});
+	// 	if ($form.valid()) {
+	// 		$.ajax({
+	// 			url: $form.attr('action'),
+	// 			type: 'POST',
+	// 			data: formData,
+	// 			success: function (data) {
+	// 				if (data.status === 'error') {
+	// 					// Email subscription error messages
+	// 					swal("Error!", data.type, "error");
+	// 					$btn.button('reset');
+	// 					ckav.resetForm($form);
+	// 				} else {
+	// 					//swal("Success!", validate_data.successMsg, "success");
+	// 					swal({
+	// 						type: "success",
+	// 						title: "Success!",
+	// 						text: validate_data.successMsg,
+	// 						timer: timer
+	// 					}, function () {
+	// 						if ($form.attr('data-success-redirect') === 'y') {
+	// 							window.location = ckav.config.success_url;
+	// 						}
+	// 					});
 
-						$btn.button('reset');
-						$.magnificPopup.close();
-						ckav.resetForm($form);
+	// 					$btn.button('reset');
+	// 					$.magnificPopup.close();
+	// 					ckav.resetForm($form);
 
-						setTimeout(function () { swal.close(); }, timer);
-					};
-				},
-				error: function () {
-					swal("Error!", validate_data.errorMsg, "error");
-					$btn.button('reset');
-					$.magnificPopup.close();
-					setTimeout(function () { swal.close(); }, timer);
-				}
-			});
-		} else {
-			$form.find("label.error").delay(timer).fadeOut('400', function () {
-				$(this).remove();
-			});
-			$btn.button('reset');
-		};
-	}
+	// 					setTimeout(function () { swal.close(); }, timer);
+	// 				};
+	// 			},
+	// 			error: function () {
+	// 				swal("Error!", validate_data.errorMsg, "error");
+	// 				$btn.button('reset');
+	// 				$.magnificPopup.close();
+	// 				setTimeout(function () { swal.close(); }, timer);
+	// 			}
+	// 		});
+	// 	} else {
+	// 		$form.find("label.error").delay(timer).fadeOut('400', function () {
+	// 			$(this).remove();
+	// 		});
+	// 		$btn.button('reset');
+	// 	};
+	// }
 
 	ckav.formWidget = function (obj) {
 		'use strict';
